@@ -2,11 +2,11 @@
 setting up github with just few steps in linux (Debian,ubuntu)(for now -_-)
 
 #1/
-vim setup.sh (to put your username and email)
+vim setupgit.sh (to put your username and email)
 you can use nano or other just by replace "vim" with your editpr (nano,..)
 
 #2/
-./setup.sh 
+./setupgit.sh 
 
 
 
