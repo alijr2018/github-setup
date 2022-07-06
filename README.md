@@ -1,4 +1,4 @@
-# github-setup
+# github-setup V1.0
 setting up github with just few steps in linux (Debian,ubuntu)(for now -_-)
 
 #1/
