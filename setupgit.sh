@@ -20,7 +20,7 @@ eval "$(ssh-agent -s)"
 
 ssh-add ~/.ssh/id_ed25519
 
-echo "copy the line below "
+echo "copy the line below :"
 
 
 cat ~/.ssh/id_ed25519.pub
