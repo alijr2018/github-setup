@@ -1,6 +1,12 @@
-# github-setup V1.0
+# github-setup V1.1
 setting up github with just few steps in linux (Debian,ubuntu)(for now -_-)
+# first install git and vim or (visual code ) or what do you prefer
+by these command 
+ sudo apt install git 
+ sudo apt install vim 
 
+
+ # start set up
 #1/
 vim setupgit.sh (to put your username and email)
 you can use nano or other just by replace "vim" with your editpr (nano,..)
