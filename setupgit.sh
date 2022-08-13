@@ -7,12 +7,12 @@ sudo apt install vim
 
 echo "setting up your github account"
 
-git config --global user.name "alijr2018"
-git config --global user.email "alijr_2018@proton.me"
+git config --global user.name "your user name"
+git config --global user.email "your email"
 
 echo "just a few more steps"
 
-ssh-keygen -t ed25519 -C "alijr_2018@proton.me"
+ssh-keygen -t ed25519 -C "your email"
 
 
 
