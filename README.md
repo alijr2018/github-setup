@@ -1,4 +1,4 @@
-# github-setup V1.1
+# github-setup V1.2
 setting up github with just few steps in linux (Debian,ubuntu)(for now -_-)
 # first install git and vim or (visual code ) or what do you prefer
  
