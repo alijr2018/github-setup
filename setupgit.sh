@@ -9,7 +9,15 @@ sudo apt install vim
 
 echo "just a few more steps"
 
-ssh-keygen -t ed25519 -C "email"
+echo "your email :"
+
+read email
+
+echo "your username :"
+
+read username
+
+ssh-keygen -t ed25519 -C "$email"
 
 
 
@@ -23,7 +31,7 @@ echo "copy the line below :"
 cat ~/.ssh/id_ed25519.pub
 
 echo "setting up your github account"
-git config --global user.email "email"
-git config --global user.name "username"
+git config --global user.email "$email"
+git config --global user.name "$username"
 
 echo "enjoy you git"
