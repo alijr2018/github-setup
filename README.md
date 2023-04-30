@@ -10,11 +10,8 @@ by these command :
 
 
  # start set up
-#1/
-vim setupgit.sh (to put your username and email)
-you can use nano or other just by replace "vim" with your editpr (nano,..)
 
-#2/
+#1/
 ./setupgit.sh 
 
 
