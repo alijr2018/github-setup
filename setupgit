@@ -1,13 +1,8 @@
 #!/bin/bash
 
 echo "hi"
-echo "install up git and vim"
-sudo apt install git
-sudo apt install vim
 
-
-
-echo "just a few more steps"
+echo "set up git"
 
 echo "your email :"
 

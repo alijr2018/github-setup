@@ -2,7 +2,13 @@
 setting up github with just few steps in linux (Debian,ubuntu)(for now -_-)
 # first install git and vim or (visual code ) or what do you prefer
  
-by these command :
+first run install (to update and install vim and git):
+
+ ./install
+
+  sudo apt update
+
+  sudo apt upgrade -y
 
   sudo apt install git 
 
@@ -11,9 +17,9 @@ by these command :
 
  # start set up
 
-#1/
-./setupgit.sh 
+#2/
 
+./setupgit 
 
 
 When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location.
