@@ -6,13 +6,7 @@ first run install (to update and install vim and git):
 
  ./install
 
-  sudo apt update
-
-  sudo apt upgrade -y
-
-  sudo apt install git 
-
-  sudo apt install vim 
+ ![th-2725144706](https://user-images.githubusercontent.com/106558621/177609044-2ed3ee3a-d3a2-435d-af09-8aed0cd24b35.jpg)
 
 
  # start set up
