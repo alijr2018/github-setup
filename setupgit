@@ -14,16 +14,15 @@ read username
 
 ssh-keygen -t ed25519 -C "$email"
 
-
-
 eval "$(ssh-agent -s)"
 
 ssh-add ~/.ssh/id_ed25519
 
 echo "copy the line below :"
 
-
 cat ~/.ssh/id_ed25519.pub
+
+echo "until here"
 
 echo "setting up your github account"
 git config --global user.email "$email"
